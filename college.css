@@ -4,22 +4,24 @@ body {
     padding: 0;
 }
 
-h1{
+h1{ background-color:#ffffff;
     position:sticky;
     text-align: center;
 }
 nav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
     height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    
     display: flex;
-    justify-content: end;
+    
 }
 
 .nav-item {
@@ -28,24 +30,26 @@ nav {
 
 .nav-item a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 50px;
     text-decoration: none;
 }
 
 .nav-item a:hover {
-    background-color: #575757;
+    background-color: #1556d7;
+    color: #ffffff;
 }
 
 #home img{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-   width: 100%;
-  position: relative;
+    background-image: url('images/AI-2023.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+   
+            position: relative;
 
 }
 
@@ -60,3 +64,31 @@ nav {
     margin-left: 30px;
     
 }
+#about img{
+    background-image: url('images/747741f8e7dff2532734e211c0be982a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+    position: relative;
+   
+
+}
+
+
+footer{
+    background-color:#ffffff;
+    width: 100%;
+    height:300px;
+    
+    
+}
+footer p{
+    position: relative;
+    top:50px;
+    text-align-last: center;
+}
+
+
